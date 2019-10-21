@@ -1,0 +1,14 @@
+<div class="showbox">
+
+<a>Book was successfully created.</a>
+
+<p>title:<%= @book.title %></p>
+
+<p>body:<%= @book.body %> </p>
+
+</div>
+
+
+<%=link_to "edit", edit_book_path %>
+
+<%=link_to "back", books_path %>
